@@ -13,7 +13,7 @@ pipeline {
     BG = "1Platform\\Public\\CI-CD Demo"
     WORKER = "Micro"
 
-    APPNAME = "demo-teva-mobile-customer-api"
+    APPNAME = "demo-mobile-customer-api"
 
     DEPLOY_BAT = "true"
   }

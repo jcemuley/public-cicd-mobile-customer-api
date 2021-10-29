@@ -13,7 +13,7 @@ pipeline {
     BG = "1Platform\\Public\\CI-CD Demo"
     WORKER = "Micro"
 
-    APPNAME = "NTO15122020-Berger-API-mobile-customer-api"
+    APPNAME = "demo-mobile-customer-api2"
 
     DEPLOY_BAT = "true"
   }
@@ -36,7 +36,7 @@ pipeline {
         sh "echo '}}' >>  ~/.anypoint/credentials"
       }
     }
-    
+
     stage('Build') {
       steps {
         withMaven(
@@ -97,7 +97,7 @@ pipeline {
                             reportName: "Integration Test",
                             includes: '**/index.html'
                         ]
-                      )       
+                      )
           }
         }
     }
@@ -137,4 +137,6 @@ pipeline {
   tools {
     maven 'M3'
   }
-}
+}   
+
+

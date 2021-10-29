@@ -195,7 +195,7 @@ output application/json
 payload]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-		<logger level="INFO" doc:name="Logger Name - F5 Demo" doc:id="a6f18561-1452-4af4-977b-d64300504c6b" message="#[payload]"/>
+		<logger level="INFO" doc:name="Logging DEBUG Info" doc:id="a6f18561-1452-4af4-977b-d64300504c6b" message="#[payload]"/>
     </flow>
     <flow name="get:\products\product\(product_id):mobile-customer-api-config">
         <http:request method="GET" doc:name="Request" doc:id="c1239cbf-2fd9-4ae2-a03d-02bf3eb76005" config-ref="HTTP_Request_configuration" path="#['/products/product/' ++ attributes.uriParams.product_id]">
@@ -268,7 +268,7 @@ output application/json
 payload]]></ee:set-payload>
             </ee:message>
         </ee:transform>
-		<logger level="INFO" doc:name="Logger" doc:id="394efddb-8150-4d5b-b612-d910de4c55a7" message='"Hey I am at the Mobile Customer Deploying a new Version of the API!!! and its Rob"' />
+		<logger level="INFO" doc:name="Logger" doc:id="394efddb-8150-4d5b-b612-d910de4c55a7" message='"Hey I am at the Mobile Customer Deploying a new Version of the API!!! hello roofstock"' />
     </flow>
     <flow name="get:\user\(userId)\shopping_cart:mobile-customer-api-config">
         <http:request method="GET" doc:name="Request" doc:id="1c7bd6df-1ff5-4073-96e2-57a5ef056ae9" config-ref="HTTP_Request_configuration" path="#['/user/' ++ attributes.uriParams.userId ++ '/shopping_cart']">
@@ -371,4 +371,5 @@ payload]]></ee:set-payload>
             </ee:message>
         </ee:transform>
     </flow>
+    
 </mule>

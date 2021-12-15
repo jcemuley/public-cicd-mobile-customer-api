@@ -13,7 +13,7 @@ pipeline {
     BG = "1Platform\\Public\\CI-CD Demo"
     WORKER = "Micro"
 
-    APPNAME = "paris-openvia-mobile-customer-api"
+    APPNAME = "generali-openvia-mobile-customer-api"
 
     DEPLOY_BAT = "true"
   }

@@ -13,7 +13,7 @@ pipeline {
     BG = "1Platform\\Public\\CI-CD Demo"
     WORKER = "Micro"
 
-    APPNAME = "pca-2422022-mobile-customer-api"
+    APPNAME = "bbva-demo-app"
 
     DEPLOY_BAT = "true"
   }

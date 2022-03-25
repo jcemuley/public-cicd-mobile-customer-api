@@ -13,7 +13,7 @@ pipeline {
     BG = "1Platform\\Public\\CI-CD Demo"
     WORKER = "Micro"
 
-    APPNAME = "bbva-demo-app"
+    APPNAME = "gif-demo-app"
 
     DEPLOY_BAT = "true"
   }

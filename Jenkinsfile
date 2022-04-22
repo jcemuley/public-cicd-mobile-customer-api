@@ -13,7 +13,7 @@ pipeline {
     BG = "1Platform\\Public\\CI-CD Demo"
     WORKER = "Micro"
 
-    APPNAME = "oz-my-demo-app"
+    APPNAME = "Eve-oz-my-demo-app"
 
     DEPLOY_BAT = "true"
   }

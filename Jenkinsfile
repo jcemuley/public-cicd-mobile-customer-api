@@ -13,7 +13,7 @@ pipeline {
     BG = "1Platform\\Public\\CI-CD Demo"
     WORKER = "Micro"
 
-    APPNAME = "dpf-my-demo-app"
+    APPNAME = "fr-my-demo-app"
 
     DEPLOY_BAT = "true"
   }

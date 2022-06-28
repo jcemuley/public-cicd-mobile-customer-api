@@ -289,6 +289,7 @@ output application/json
 payload]]></ee:set-payload>
             </ee:message>
         </ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="c23a4064-46c6-42b7-9260-f5f81ae02dc6" />
     </flow>
     <flow name="get:\user\(userId):mobile-customer-api-config">
         <http:request method="GET" doc:name="Request" doc:id="34b81a80-0515-4b06-8ce5-3bf5a5c1c976" config-ref="HTTP_Request_configuration" path="#['/user/' ++ attributes.uriParams.userId]">

@@ -13,7 +13,7 @@ pipeline {
     BG = "1Platform\\Community\\CI-CD Demo"
     WORKER = "Micro"
 
-    APPNAME = "bpittman1-mobile-customer-api"
+    APPNAME = "bpittman1-mobile-customer-api-v1"
 
     DEPLOY_BAT = "true"
   }

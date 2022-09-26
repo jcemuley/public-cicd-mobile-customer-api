@@ -13,9 +13,7 @@ pipeline {
     BG = "1Platform\\Community\\CI-CD Demo"
     WORKER = "Micro"
 
-    APPNAME = "mobile-customer-api-bpittman-test-rsx"
-
-    DEPLOY_BAT = "true"
+    APPNAME = "mobile-customer-api-bpittman-test-demo-rsx-epicor
   }
   stages {
     stage('Prepare bat configuration') {

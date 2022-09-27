@@ -12,8 +12,7 @@ pipeline {
     MULE_VERSION = '4.3.0'
     BG = "1Platform\\Community\\CI-CD Demo"
     WORKER = "Micro"
-
-    APPNAME = "mobile-customer-api-jce"
+	APPNAME = "mobile-customer-api-jce"
   }
   stages {
     stage('Prepare bat configuration') {
